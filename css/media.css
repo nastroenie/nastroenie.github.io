@@ -1,0 +1,237 @@
+/* -----------------Navigation Header------------------ */
+/* Для ширины экрана от 620px и более*/
+@media  (min-width: 620px) {
+    /* Navigation Header block */
+
+    .nav {
+        display: block;
+    }
+
+    .close-menu {
+        display: none;
+    }
+
+    .nav-wrapper {
+        justify-content: space-between;
+        padding-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .footer-copyright {
+        margin-bottom: 0px;
+    }
+}
+
+@media  (min-width: 650px) {
+    /* Navigation Header block */
+
+    .nav-wrapper {
+        flex-direction: row;
+    }
+
+    .nav__item {
+        margin-right: 40px;
+        display: inline-block;
+        flex-direction: row;
+        padding-top: 0px;
+    }
+
+    .videos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .video-item {
+        margin-right: 50px;
+        position: relative;
+        margin-bottom: 36px;
+        overflow: hidden;
+    }
+
+    .video-item:last-child {
+        margin-right: 0px;
+    }
+
+    .reviews {
+        flex-direction: row;
+    }
+
+    .review-item {
+        margin-right: 50px;
+    }
+
+
+}
+
+
+@media  (min-width: 920px) {
+
+    .instructors-wrapper {
+        flex-direction: row;
+    }
+}
+
+@media  (min-width: 980px) {
+    .blog-item-content {
+        margin-left: 20px;
+    }
+
+    .blog-item {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .blog-item:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+}
+
+/* Для ширины экрана от 1460px и более*/
+@media  (min-width: 1280px) {
+    /* Navigation Header block */
+
+    .logo {
+        margin-bottom: 0px;
+    }
+
+    .nav-wrapper {
+        max-width: 1480px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 92px;
+        margin-bottom: 220px;
+        flex-direction: row;
+    }
+
+    .header-wrapper {
+        max-width: 1480px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 230px;
+    }
+
+    .header-title {
+        font-size: 70px;
+    }
+
+    .header-content {
+        padding-top: 210px;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-bottom: 70px;
+    }
+
+    .video-center {
+        order: 0;
+        margin-bottom: 0px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .reviews {
+        order: 0;
+        margin-right: 20px;
+        width: 260px;
+    }
+
+    .videos {
+        width: 280px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .video__title {
+        text-align: left;
+    }
+
+    .video-item {
+        margin-right: 0;
+    }
+
+    .reviews__title {
+        text-align: left;
+    }
+
+    .review-item {
+        margin-right: 0px;
+    }
+
+    .container {
+        width: 1050px;
+        margin-top: 100px;
+    }
+
+    .header-1 {
+        font-size: 50px;
+        margin-bottom: 85px;
+    }
+
+    .instructors-wrapper {
+        flex-direction: row;
+        margin-bottom: 180px;
+    }
+
+    .instructor__name {
+        font-size: 30px;
+    }
+
+    .instructor {
+        margin-bottom: 0px;
+    }
+
+    .incstructor__photo {
+        margin-bottom: 30px;
+    }
+
+    .blog-item {
+        flex-direction: row;
+        margin-bottom: 190px;
+        justify-content: space-between;
+    }
+
+    .blog-item__header {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .blog-item-content {
+        width: 450px;
+        margin-left: 0px;
+    }
+
+    .blog-item__image {
+        margin-bottom: 0px;
+    }
+
+    .blog-item__desc {
+        margin-bottom: 35px;
+    }
+
+    .blog-item:last-child {
+        margin-bottom: 250px;
+    }
+
+    .header-1-cta {
+        margin-bottom: 70px;
+    }
+
+    .footer-container {
+        width: 1180px;
+    }
+
+    .nav__item {
+        margin-right: 70px;
+        display: inline-block;
+        flex-direction: row;
+    }
+
+}

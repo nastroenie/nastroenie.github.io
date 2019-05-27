@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Surfing</title>
+
+    <!-- Отображение страницы в масштабе 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Инструкция для IE -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Собственные стили -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- Файл со стилями для кроссбраузерности. Нормализация стилей -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Библиотека Animate-css. Позволяет анимировать элементы страницы. Работает только при обновлении самой страницы -->
+    <link rel="stylesheet" href="libs/Animate-css/animate.css">
+
+    <!-- Подключение веб-шрифтов Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Playfair+Display:400,400i" rel="stylesheet">
+</head>
+
+<body>
+    <!-- nav-wrapper -->
+    <div class="nav-wrapper">
+        <a href="#">
+            <div class="logo">
+                <img src="img/logo/logo.svg" alt="Long Beach Surfing Institute">
+            </div>
+        </a>
+        <div class="nav">
+            <a href="#" class="nav__item active"> Home</a>
+            <a href="#header-1" class="nav__item">Instructors</a>
+            <a href="#header-3" class="nav__item">Blog</a>
+            <a href="#" class="nav__item">Contact</a>
+        </div>
+        <a class="close-menu"></a>
+    </div>
+    <!-- // nav-wrapper -->
+
+    <header class="header-wrapper">
+
+        <!-- header title -->
+        <h1 class="header-title wow slideInDown">Long Beach Surfing Institute</h1>
+        <div class="header-description wow slideInUp">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+        <!-- // header title -->
+
+        <!-- header content -->
+        <div class="header-content">
+
+            <!-- reviews left -->
+            <div class="reviews">
+                <div class="reviews__title">Recent Reviews</div>
+
+                <div class="review-item wow slideInLeft" data-wow-duration="1s">
+                    <div class="review-item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        incididunt ut
+                        labore et dolore magn.</div>
+                    <div class="review-item__author">Steve Woz</div>
+                </div>
+
+                <div class="review-item wow slideInLeft" data-wow-duration="1.5s" >
+                    <div class="review-item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                        incididunt ut
+                        labore et dolore magn.</div>
+                    <div class="review-item__author">David Collum</div>
+                </div>
+            </div>
+            <!-- // reviews left -->
+
+
+            <!-- video center -->
+            <div class="video-center wow fadeInUp">
+                <div class="play-icon-center"></div>
+                <img src="img/video/img-1.jpg" alt="Video">
+            </div>
+            <!-- // video center -->
+
+
+            <!-- videos right -->
+            <div class="videos">
+                <div class="video__title">User Videos</div>
+                <div class="video-item wow slideInRight" data-wow-duration="1s">
+                    <div class="play-icon"></div>
+                    <img src="img/video/img-2.jpg" alt="Video">
+                </div>
+                <div class="video-item wow slideInRight" data-wow-duration="1.5s">
+                    <div class="play-icon"></div>
+                    <img src="img/video/img-3.jpg" alt="Video">
+                </div>
+            </div>
+            <!-- // videos right -->
+        </div>
+        <!-- // header content -->
+
+    <section class="container">
+
+        <!-- Popular Instructors -->
+        <h2 id="header-1" class="header-1">Popular Instructors</h2>
+
+        <!-- instructors-wrapper -->
+        <div id="instructors-wrapper" class="instructors-wrapper wow fadeIn">
+
+            <div class="instructor">
+                <div class="incstructor__photo">
+                    <img src="img/instructors/img-4.jpg" alt="Simon Adward">
+                </div>
+                <div class="instructor__name">Simon Adward</div>
+                <div class="instructor__students">5,000 students</div>
+            </div>
+
+            <div class="instructor">
+                <div class="incstructor__photo">
+                    <img src="img/instructors/img-5.jpg" alt="Elliana D'Soza">
+                </div>
+                <div class="instructor__name">Elliana D'Soza</div>
+                <div class="instructor__students">4,350 students</div>
+            </div>
+
+            <div class="instructor">
+                <div class="incstructor__photo">
+                    <img src="img/instructors/img-6.jpg" alt="Joseph Bardon">
+                </div>
+                <div class="instructor__name">Joseph Bardon</div>
+                <div class="instructor__students">3,248 students</div>
+            </div>
+
+        </div>
+        <!-- // instructors-wrapper -->
+        <!-- // Popular Instructors -->
+        <!-- Recent Blogs -->
+        <h2 id="header-3" class="header-1">Recent Blogs by User</h2>
+        <div class="blog-item wow slideInRight" data-wow-duration="1.7s">
+            <div class="blog-item__image">
+                <img src="img/blog/img-7.jpg" alt="Blog-one-images">
+            </div>
+            <div class="blog-item-content">
+                <div class="blog-item__header">Lorem cound be headline</div>
+                <div class="blog-item__desc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <a href="#" class="blog-item__readmore">Read More</a>
+            </div>
+        </div>
+
+        <div id="blog-item" class="blog-item wow slideInLeft" data-wow-duration="1.7s">
+            <div class="blog-item__image">
+                <img src="img/blog/img-8.jpg" alt="Blog-one-images">
+            </div>
+            <div class="blog-item-content">
+                <div class="blog-item__header">Lipsum cound be headline</div>
+                <div class="blog-item__desc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <a href="#" class="blog-item__readmore">Read More</a>
+            </div>
+        </div>
+        <!-- // Recent Blogs -->
+
+        <div class="cta-section text-center wow fadeIn">
+            <h2 class="header-1 header-1-cta">Aren't you intrested Yet!!</h2>
+            <a href="#" class="button-footer">Enroll Now</a>
+        </div>
+
+    </section>
+</header>
+    <!-- // header wrapper -->
+    <!-- Footer -->
+    <footer class="footer wow slideInUp">
+        <!-- footer-container 1080px -->
+        <div class="footer-container">
+
+            <div class="footer-copyright">
+                <div class="footer-copyright__title">Beach Surfing</div>
+                <div class="footer-copyright__text">Copyright © 2019 All Rights Reserved.</div>
+            </div>
+            <div class="footer__designedby">Code by &nbsp;<strong>Artem Komar</strong></div>
+        </div>
+        <!-- // footer-container 1080px -->
+    </footer>
+    <!-- // Footer -->
+
+
+    <!-- Подключение библиотеки Jquery -->
+    <script src="libs/jquery-3.3.1.min.js"></script>
+
+    <!-- Подключение библиотеки WOW-master для анимации при прокрутки страницы -->
+    <script src="libs/WOW-master/dist/wow.min.js"></script>
+
+    <!-- Собственный файл для скриптов -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
